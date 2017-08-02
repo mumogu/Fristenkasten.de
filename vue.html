@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Fristenkasten</title>
+</head>
+<body>
+
+<div id="app">
+<h3>Events from html</h3>
+    <ul>
+        <template v-for="event in events">
+            <li>{{ event.name }}</li>
+        </template>
+    </ul>
+</div>
+
+<script src="js/vue.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
