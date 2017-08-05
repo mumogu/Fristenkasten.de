@@ -6,7 +6,7 @@ Eigentlich ist das aber nur eine Au?rede, um Vue.js auszuprobieren. Quasi mein H
 
 ## Screenshot
 
-![Alt text](/doc/screenshot.png "Fristenkasten.de")
+![Screenshot](/doc/screenshot.png "Fristenkasten.de")
 
 ## Bauen
 
