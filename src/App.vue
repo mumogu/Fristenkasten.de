@@ -2,7 +2,7 @@
     <div id="app">
         <h1 class="page-header">Fristenkasten.de</h1>
         <p class="intro-text">
-            So viele Abschlussarbeiten, so wenig Zeit! Da kann man schonmal den Überblick verlieren.
+            !! So viele Abschlussarbeiten, so wenig Zeit! Da kann man schonmal den Überblick verlieren.
             Dagegen hilft jetzt Fristenkasten.de! Alle Abschlussarbeiten im handlichen Überblick.
         </p>
         <fk-countdown v-for="e in events" v-bind:event="e" v-bind:key="e.name"></fk-countdown>
