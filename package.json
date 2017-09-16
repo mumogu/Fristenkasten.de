@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
-    "package": "cp src/index.html dist/index.html && cp src/assets dist/assets",
+    "package": "cp src/index.html dist/index.html && cp -rf src/assets/ dist/assets/",
     "package-win": "copy src\\index.html dist\\index.html & mkdir dist\\assets & copy src\\assets\\* dist\\assets\\"
   },
   "dependencies": {
