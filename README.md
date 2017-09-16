@@ -2,7 +2,7 @@
 
 > So viele Absclussarbeiten, so wenig Zeit! Da kann man schonmal den ?berblick verlieren. Dagegen hilft jetzt Fristenkasten.de! Alle Abschlussarbeiten im handlichen ?berblick.
 
-Eigentlich ist das aber nur eine Au?rede, um Vue.js auszuprobieren. Quasi mein Hello World in Vue.
+Eigentlich ist das aber nur eine Ausrede, um Vue.js auszuprobieren. Quasi mein Hello World in Vue.
 
 ## Screenshot
 
