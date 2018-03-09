@@ -1,0 +1,67 @@
+.event {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  border-top: 1px solid grey;
+
+  padding: 10px 0px;
+  margin: 5px 10px;
+
+  .event-name {
+    font-family: Roboto Condensed, serif;
+    font-weight: bold;
+    font-size: calc(15px + 2vw);
+    flex-grow: 5;
+    color: #1abc9c;
+    width: .3vw;
+    padding: 10px 0;
+
+    @media only screen and (max-width: 500px) {
+      flex-basis: 100%;
+    }
+    @media only screen and (min-width: 1000px) {
+      span {
+        font-size: 35px;
+      }
+    }
+  }
+
+  .event-time {
+    display: flex;
+    flex-grow: 1;
+    font-size: calc(16px + .5vw);
+  }
+
+  .event-time-days, .event-time-hours, .event-time-minutes, .event-time-seconds {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+    .event-time-label {
+      color: #1abc9c;
+      font-weight: 400;
+    }
+
+    div {
+      padding: 5px 5px;
+    }
+  }
+
+
+  .blink {
+    animation: blink-animation 1s steps(2, start) infinite;
+    -webkit-animation: blink-animation 1s steps(2, start) infinite;
+  }
+  @keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+  @-webkit-keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+}

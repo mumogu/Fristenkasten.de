@@ -1,0 +1,14 @@
+/* Material icons font */
+@import '~https://fonts.googleapis.com/icon?family=Material+Icons';
+
+/* Angular Material Theme */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400|Roboto:100');
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
+
+/* Global Styles */
+body {
+  background-color: #2a394b ;
+}

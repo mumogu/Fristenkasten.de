@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Damion');
+
+div.content-wrapper {
+  margin: 0 auto;
+  max-width: 800px;
+  text-align: center;
+
+  color: white;
+  font-family: Roboto;
+
+  h1 {
+    font-family: Damion;
+    margin: 16px 0;
+    font-size: 10vw;
+
+    @media (min-width: 800px) {
+      font-size: 80px;
+    }
+
+  }
+
+  p.intro-text {
+    font-size:14px;
+    padding: 0 16px;
+
+    font-size: calc(12px + .5vw);
+    line-height: calc(100% + 1vw);
+  }
+
+  .hof {
+    margin-top: 100px;
+  }
+}
+
+

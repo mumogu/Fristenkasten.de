@@ -1,0 +1,12 @@
+<div class="event" *ngIf="days < -1">
+
+
+  <div class="event-name">
+    {{ event.name }}
+  </div>
+
+  <div class="event-date">
+    {{ event.dueDate | date: 'dd.MM.yyyy'}}
+  </div>
+
+</div>
