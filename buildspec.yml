@@ -4,6 +4,7 @@ phases:
   pre_build:
     commands:
       - git checkout angular
+      - sudo apt-get update -y && sudo apt-get install -y node
   install:
     commands:
       - npm install
