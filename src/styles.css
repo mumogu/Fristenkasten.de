@@ -1,5 +1,5 @@
 /* Material icons font */
-@import '~https://fonts.googleapis.com/icon?family=Material+Icons';
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
 /* Angular Material Theme */
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
