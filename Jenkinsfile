@@ -2,14 +2,15 @@ pipeline {
     agent any
 
     stages {
-        stage('Build') {
+        stage('Install') {
             steps {
-                echo 'Building..'
+                sh 'npm install'
             }
         }
-        stage('Test') {
+        stage('Build') {
             steps {
-                echo 'Testing..'
+                sh 'npm run build',
+                archiveArtifacts artifacts: 'dist/**/*', fingerprint: true
             }
         }
         stage('Deploy') {
