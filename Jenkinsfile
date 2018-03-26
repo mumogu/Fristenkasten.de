@@ -13,7 +13,7 @@ pipeline {
             }
         }
         stage('Deploy') {
-            step([
+            steps([
                     $class: 'S3BucketPublisher',
                     entries: [[
                         sourceFile: 'dist/**/',
