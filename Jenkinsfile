@@ -15,7 +15,7 @@ pipeline {
         stage('Deploy') {
             steps {
               withAWS(region:'eu-central-1', profile:'Global Privileges') {
-                
+                s3Upload(file:'dist', bucket:'fristentester', path:'/')
                }
 
             }
