@@ -24,6 +24,7 @@ export class CountdownComponent implements OnInit {
   }
 
   calculateTimeDifference(): void {
+
     let timeRemaining = this.event.dueDate.getTime() + this.event.dueDate.getTimezoneOffset() - Date.now();
     timeRemaining += 1000 * 60 * 60 * 24;
     timeRemaining -= 1000 * 60 * 60;
