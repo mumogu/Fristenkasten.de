@@ -1,11 +1,11 @@
 <div *ngIf="days >= -1" class="event">
   <div class="event-name">
-    <span *ngIf="5 <= days <= 0">😥</span>
+    <span *ngIf="days <= 5 && days >= 0">😥</span>
     <span *ngIf="days == -1">💪</span>
 
     {{ event.name }}
 
-    <span *ngIf="5 <= days <= 0">😱</span>
+    <span *ngIf="days <= 5 && days >= 0">😱</span>
     <span *ngIf="days == -1">🍻</span>
   </div>
 
