@@ -7,6 +7,7 @@ import {EventsModel} from '../events/events.model';
   styleUrls: ['./countdown.component.scss']
 })
 export class CountdownComponent implements OnInit {
+
   @Input() event: EventsModel;
 
   days: number;
